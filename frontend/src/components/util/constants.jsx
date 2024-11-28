@@ -1,8 +1,8 @@
 import * as Yup from 'yup';
 
-export const URL = 'http://localhost:8080';
+const URL = 'http://localhost:8080';
 
-export const schema = Yup.object().shape({
+const schema = Yup.object().shape({
    name: Yup.string()
      .min(2, 'Too Short!')
      .max(50, 'Too Long!')
@@ -19,3 +19,4 @@ export const schema = Yup.object().shape({
      .matches(/^[0-9]+$/, "Must be only numbers")
      .required('Required'),
  })
+ export {URL, schema}
