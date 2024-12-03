@@ -59,7 +59,7 @@ module.exports= function(app) {
          }
    });
 
-   app.put("products/:id", validation, async (req, res) => {
+   app.put("/products/:id", validation, async (req, res) => {
 
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
