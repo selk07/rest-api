@@ -6,7 +6,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit'
 
 import { getProducts, deleteProduct } from './util/hooks';
-import '../App.css'
+// import '../App.css'
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
