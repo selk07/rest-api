@@ -4,7 +4,7 @@ import Header from './components/page/Header';
 import ProductForm from './components/ProductForm'
 import ProductList from './components/ProductList';
 import ProductEdit from './components/ProductEdit';
-import '../App.css'
+import './App.css'
 
 
 function App() { 
